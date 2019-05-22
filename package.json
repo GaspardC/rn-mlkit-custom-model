@@ -1,7 +1,7 @@
 
 {
   "name": "rn-mlkit-custom-model",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,13 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
+  "author": "Gaspard Chevassus",
   "license": "",
   "peerDependencies": {
-    "react-native": "0.59.8",
-    "react-native-windows": "0.41.0-rc.1"
-
+    "react-native": "0.59.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaspardC/repo-url.git"
   }
 }

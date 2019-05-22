@@ -38,20 +38,15 @@
       compile project(':rn-mlkit-custom-model')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNMlkitCustomModel.sln` in `node_modules/rn-mlkit-custom-model/windows/RNMlkitCustomModel.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Mlkit.Custom.Model.RNMlkitCustomModel;` to the usings at the top of the file
-  - Add `new RNMlkitCustomModelPackage()` to the `List<IReactPackage>` returned by the `Packages` method
 
 
 ## Usage
 ```javascript
 import RNMlkitCustomModel from 'rn-mlkit-custom-model';
 
-// TODO: What to do with the module?
-RNMlkitCustomModel;
+RNMlkitCustomModel.initModel()
+RNMlkitCustomModel.runModelInference(IMAGE_URI).then(results => {
+	console.log(results)
+})
 ```
   
