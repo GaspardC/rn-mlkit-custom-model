@@ -28,7 +28,8 @@ The [example](example/mlcamera) provided uses react-native camera and mobilenet_
 
 ### *Don't forget to ...*
 
-- *add google-services.json to the appropriate folder (/android/app/) __(Android only)__*
+- Bundle model assets to the app [Android](https://firebase.google.com/docs/ml-kit/android/use-custom-models#bundle_models_with_an_app) instructions / [iOS](https://firebase.google.com/docs/ml-kit/ios/use-custom-models#bundle_models_with_an_app) instructions. You can download the files [here](/[example](https://github.com/GaspardC/rn-mlkit-custom-model/tree/master/example/mlcamera/android/app/src/main/assets)).
+- *Connect your app to Firebase [Android](https://firebase.google.com/docs/android/setup) instructions / [iOS](https://firebase.google.com/docs/ios/setup) instructions*
 - *add GoogleService-Info.plist to the appropriate folder (/ios/) __(iOS only)__*
 - *install [CocoaPods](https://cocoapods.org/) in your react-native project and add the following line to your Podfile then run `pod install` __(iOS only)__*
    

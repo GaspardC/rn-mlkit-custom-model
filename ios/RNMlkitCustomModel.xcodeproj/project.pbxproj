@@ -212,7 +212,6 @@
 					"$(PROJECT_DIR)/../../../ios/Frameworks/**",
 					"$(PROJECT_DIR)/../../../ios/Pods/Firebase/**",
 					"$(PROJECT_DIR)/../../../ios/Pods/Headers/Public/**",
-					"$(PROJECT_DIR)/../../../ios/Pods/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -232,7 +231,6 @@
 					"$(PROJECT_DIR)/../../../ios/Frameworks/**",
 					"$(PROJECT_DIR)/../../../ios/Pods/Firebase/**",
 					"$(PROJECT_DIR)/../../../ios/Pods/Headers/Public/**",
-					"$(PROJECT_DIR)/../../../ios/Pods/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
