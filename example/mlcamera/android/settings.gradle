@@ -1,0 +1,9 @@
+rootProject.name = 'mlcamera'
+include ':rn-mlkit-custom-model'
+project(':rn-mlkit-custom-model').projectDir = new File(rootProject.projectDir, '../node_modules/rn-mlkit-custom-model/android')
+include ':@react-native-community_image-editor'
+project(':@react-native-community_image-editor').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/image-editor/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+
+include ':app'

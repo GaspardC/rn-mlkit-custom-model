@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "33467254099",
+    "firebase_url": "https://ml-kit-custom-model-code-a4691.firebaseio.com",
+    "project_id": "ml-kit-custom-model-code-a4691",
+    "storage_bucket": "ml-kit-custom-model-code-a4691.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33467254099:android:693c00b96c712e8c",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33467254099-6lhci1ukukd53neuk2khi27t79ulp5ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9xq01Im0UJX-fTcNFDfGspBqpaZKXqaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33467254099-6lhci1ukukd53neuk2khi27t79ulp5ng.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "33467254099-avbrp6s7tb3ojfvge7pn110atpv26f70.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gaspardc.react-native-mlkit-starter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33467254099:android:bed605cb16829f23",
+        "android_client_info": {
+          "package_name": "com.mlcamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33467254099-2ra0jp2rdb1bfg8su14hvgptgnhrt5r3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mlcamera",
+            "certificate_hash": "8715ce345ffb007d9302db3b7be68fe4e335cce4"
+          }
+        },
+        {
+          "client_id": "33467254099-6lhci1ukukd53neuk2khi27t79ulp5ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9xq01Im0UJX-fTcNFDfGspBqpaZKXqaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33467254099-6lhci1ukukd53neuk2khi27t79ulp5ng.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "33467254099-avbrp6s7tb3ojfvge7pn110atpv26f70.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gaspardc.react-native-mlkit-starter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33467254099:android:be6d7958f767812c",
+        "android_client_info": {
+          "package_name": "com.react_native_mlkit_starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33467254099-g424e09j3cruj6rs2pldhufmdtjihfv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.react_native_mlkit_starter",
+            "certificate_hash": "8715ce345ffb007d9302db3b7be68fe4e335cce4"
+          }
+        },
+        {
+          "client_id": "33467254099-6lhci1ukukd53neuk2khi27t79ulp5ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9xq01Im0UJX-fTcNFDfGspBqpaZKXqaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33467254099-6lhci1ukukd53neuk2khi27t79ulp5ng.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "33467254099-avbrp6s7tb3ojfvge7pn110atpv26f70.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gaspardc.react-native-mlkit-starter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
