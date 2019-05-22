@@ -1,10 +1,23 @@
-# DO NOT USE IT / IN DEVELOPMENT
-
-
-
 
 # rn-mlkit-custom-model
 
+MLKit Custom Model bridge for React-native running on iOS and Android.
+
+Native code inspired from the Firebase documentation: https://firebase.google.com/docs/ml-kit/use-custom-models
+
+
+The [example](example/mlcamera) provided uses react-native camera and mobilenet_v1_1.0_224.
+
+
+*Don't forget to ...*
+- *add google-services.json to the appropriate folder (/android/app/) __(Android only)__*
+- *add GoogleService-Info.plist to the appropriate folder (/ios/) __(iOS only)__*
+- *install [CocoaPods](https://cocoapods.org/) in your react-native project and add the following line to your Podfile then run `pod install` __(iOS only)__*
+   
+	 ```
+  	pod 'Firebase/Analytics'
+  	pod 'Firebase/MLModelInterpreter'
+		
 ## Getting started
 
 `$ npm install rn-mlkit-custom-model --save`
@@ -44,7 +57,10 @@
 ```javascript
 import RNMlkitCustomModel from 'rn-mlkit-custom-model';
 
+//init the model
 RNMlkitCustomModel.initModel()
+
+//run the model on the provided image
 RNMlkitCustomModel.runModelInference(IMAGE_URI).then(results => {
 	console.log(results)
 })
