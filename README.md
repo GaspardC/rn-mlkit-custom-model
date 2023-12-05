@@ -1,6 +1,5 @@
 
-# rn-mlkit-custom-model
-
+# rn-mlkit-custom-model [ARCHIVE]
 
 <p align="center">
   <img  src="https://user-images.githubusercontent.com/9252579/58023322-d2085c80-7b0f-11e9-83af-db2281047e5c.png">
